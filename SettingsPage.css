@@ -1,0 +1,173 @@
+/* SettingsPage.css - White & Orange Theme */
+
+.settings-hero {
+  background: linear-gradient(to right, #fff5f0, #fffdf9);
+  padding: 2.5rem 1rem;
+  text-align: center;
+}
+
+.settings-hero h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #d946ef; /* สีม่วง-ชมพู */
+  margin-bottom: 0.5rem;
+}
+
+.settings-hero p {
+  font-size: 1rem;
+  color: #6b7280;
+}
+
+.settings-section {
+  padding: 2rem 1rem;
+}
+
+.settings-layout {
+  display: flex;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.settings-sidebar {
+  width: 220px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+}
+
+.settings-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.settings-sidebar ul li {
+  margin-bottom: 1.2rem;
+}
+
+.settings-sidebar ul li a {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.settings-sidebar ul li a:hover {
+  color: #f97316; /* สีส้ม */
+}
+
+.settings-main {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  padding: 2.5rem;
+}
+
+.settings-form .form-group {
+  margin-bottom: 1.8rem;
+}
+
+.settings-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+  color: #1f2937;
+}
+
+.settings-form input,
+.settings-form select,
+.settings-form textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #f97316;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #fffaf0;
+  transition: border-color 0.3s ease;
+}
+
+.settings-form input:focus,
+.settings-form select:focus,
+.settings-form textarea:focus {
+  outline: none;
+  border-color: #ea580c;
+  background-color: #fff;
+}
+
+.settings-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.btn-save,
+.btn-secondary,
+.btn-danger {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-save {
+  background-color: #f97316; /* สีส้ม */
+  color: white;
+}
+
+.btn-save:hover {
+  background-color: #ea580c;
+}
+
+.btn-secondary {
+  background-color: #fef3c7;
+  color: #92400e;
+  margin-right: 1rem;
+}
+
+.btn-secondary:hover {
+  background-color: #fde68a;
+}
+
+.btn-danger {
+  background-color: #ef4444;
+  color: white;
+}
+
+.security-settings,
+.notification-settings,
+.logout-section {
+  margin-top: 2rem;
+}
+
+.security-settings h3,
+.notification-settings h3,
+.logout-section h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+}
+
+.security-settings p,
+.notification-settings p {
+  font-size: 0.95rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background-color: #fff7e6;
+  font-size: 0.9rem;
+  color: #995c00;
+  margin-top: 3rem;
+  border-top: 1px solid #ffe0b3;
+}

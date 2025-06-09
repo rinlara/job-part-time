@@ -1,0 +1,63 @@
+.notification-settings-container {
+  max-width: 500px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.notification-settings-container h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.notification-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.notification-form label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 15px;
+  color: #374151;
+  cursor: pointer;
+}
+
+.notification-form input[type="checkbox"] {
+  transform: scale(1.2);
+}
+
+.save-button {
+  background-color: #8c54ff;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+  background-color: #702eff;
+}
+
+.save-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 1rem;
+}

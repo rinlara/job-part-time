@@ -1,0 +1,214 @@
+/* src/components/ManageJobs.css */
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.hero-section {
+  background: linear-gradient(to right, #ff9800, #ffe0b2);
+  text-align: center;
+  padding: 3rem 2rem;
+  color: white;
+}
+
+.dashboard-layout {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.sidebar {
+  background-color: white;
+  border-right: 1px solid #eee;
+  padding: 1.5rem;
+  min-width: 220px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+
+.sidebar h3 {
+  font-size: 1.2rem;
+  color: #d84315;
+  margin-bottom: 1rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar li {
+  margin-bottom: 1rem;
+}
+
+.sidebar a {
+  color: #ff9800;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.sidebar a:hover {
+  color: #e67e00;
+}
+
+.sidebar .active,
+.sidebar .active a {
+  color: #e67e00;
+  font-weight: bold;
+}
+
+.content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(255, 152, 0, 0.1);
+}
+
+.breadcrumb {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 1.5rem;
+}
+
+.table-header {
+  margin-bottom: 2rem;
+}
+
+.job-table-container {
+  overflow-x: auto;
+}
+
+.job-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+.job-table thead th {
+  background-color: #ff9800;
+  color: white;
+  padding: 1rem;
+  text-align: left;
+}
+
+.job-table tbody td {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.status-tag {
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.status-tag.active {
+  background-color: #fff3e0;
+  color: #ef6c00;
+}
+
+.status-tag.closed {
+  background-color: #fdecea;
+  color: #c62828;
+}
+
+.action-buttons button {
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-edit {
+  background-color: #2196f3;
+  color: white;
+}
+
+.btn-online {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-offline {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-delete {
+  background-color: #999;
+  color: white;
+}
+
+.btn-edit:hover {
+  background-color: #1976d2;
+}
+
+.btn-online:hover {
+  background-color: #388e3c;
+}
+
+.btn-offline:hover {
+  background-color: #d32f2f;
+}
+
+.btn-delete:hover {
+  background-color: #777;
+}
+
+.action-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+.action-footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.site-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-column h4 {
+  margin-bottom: 1rem;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+}
+
+.policy-links a {
+  color: #ff9800;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.policy-links a:hover {
+  color: #f57c00;
+}

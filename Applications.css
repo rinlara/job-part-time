@@ -1,0 +1,261 @@
+/* Applications.css */
+
+.hero-section {
+  background-color: #fffaf0;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.dashboard-section {
+  padding: 2rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.dashboard-layout {
+  display: flex;
+  gap: 2rem;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #ffffff;
+  border-right: 1px solid #ffa726;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(255, 167, 38, 0.1);
+  border-radius: 8px;
+}
+
+.sidebar h3 {
+  color: #ff6f00;
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin: 0.5rem 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #ffa726;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.sidebar a:hover {
+  color: #ef6c00;
+}
+
+.sidebar .active,
+.sidebar .active a {
+  font-weight: bold;
+  color: #e65100;
+}
+
+.sidebar button {
+  background: none;
+  border: none;
+  color: #ffa726;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.sidebar button:hover {
+  color: #ef6c00;
+}
+
+.content {
+  flex: 1;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(255, 167, 38, 0.1);
+}
+
+.breadcrumb {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #ff8a65;
+}
+
+.application-table-container {
+  overflow-x: auto;
+}
+
+.application-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.application-table thead th {
+  background-color: #ffe0b2;
+  color: #d84315;
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 2px solid #ffa726;
+}
+
+.application-table tbody td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #eee;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn-view {
+  background-color: #ffb74d;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-accept {
+  background-color: #66bb6a;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-reject {
+  background-color: #ef5350;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.status-tag {
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.status-tag.pending {
+  background-color: #ffd54f;
+  color: #4e342e;
+}
+
+.status-tag.accepted {
+  background-color: #a5d6a7;
+  color: #2e7d32;
+}
+
+.status-tag.rejected {
+  background-color: #ef9a9a;
+  color: #c62828;
+}
+.application-table-container {
+  overflow-x: auto;
+}
+
+.application-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(255, 167, 38, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.application-table thead {
+  background-color: #ff9800;
+  color: white;
+}
+
+.application-table th,
+.application-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.application-table tr:hover {
+  background-color: #fff3e0;
+}
+
+.applicant-image {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.status-tag {
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.status-tag.pending {
+  background-color: #ffd54f;
+  color: #333;
+}
+
+.status-tag.accepted {
+  background-color: #a5d6a7;
+  color: #2e7d32;
+}
+
+.status-tag.rejected {
+  background-color: #ef9a9a;
+  color: #c62828;
+}
+
+.action-buttons button {
+  margin-right: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-view {
+  background-color: #ffa726;
+  color: white;
+}
+
+.btn-view:hover {
+  background-color: #fb8c00;
+}
+
+.btn-accept {
+  background-color: #66bb6a;
+  color: white;
+}
+
+.btn-accept:hover {
+  background-color: #388e3c;
+}
+
+.btn-reject {
+  background-color: #ef5350;
+  color: white;
+}
+
+.btn-reject:hover {
+  background-color: #d32f2f;
+}
